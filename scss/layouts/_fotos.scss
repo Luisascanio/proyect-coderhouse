@@ -24,3 +24,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+@include media(550px);
+@include media(428px);
+@include media(412px);

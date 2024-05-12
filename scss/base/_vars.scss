@@ -42,15 +42,17 @@ $color-secundario: aliceblue;
     }
 
     .container-videos{
-        flex-direction: column;
+        display: block;
     }
     .main-video{
-        width: 100%;
+        width: auto;
+        height: auto;
+        
         
     }
     h1 a{
         margin:1rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         display: flex;
         font-family: "Rye", serif;
         font-weight: 400;
@@ -74,7 +76,7 @@ $color-secundario: aliceblue;
         justify-content: center;
     }
     .p-contact{
-        font-size: 1.1rem;
+        font-size: 1rem;
     font-family: "Rye", serif;
     font-weight: 400;
     font-style: normal;
@@ -85,6 +87,6 @@ $color-secundario: aliceblue;
     padding: 2rem;
     margin: 4rem;
     }
-
+    
     }
 }

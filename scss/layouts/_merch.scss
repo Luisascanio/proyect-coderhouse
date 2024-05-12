@@ -14,3 +14,7 @@
         transform: scale(1.1);
     }
 }
+
+@include media(550px);
+@include media(428px);
+@include media(412px);
