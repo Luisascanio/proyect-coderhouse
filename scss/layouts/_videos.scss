@@ -1,0 +1,40 @@
+.container-videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-video{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+h1{
+    margin:1rem;
+    font-size: 3rem;
+    display: flex;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos-h2{
+    
+    display: flex;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}

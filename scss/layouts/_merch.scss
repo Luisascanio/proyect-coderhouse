@@ -1,0 +1,16 @@
+.p-merch{
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+    
+}
+.imagen-merch{
+    margin: auto;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}

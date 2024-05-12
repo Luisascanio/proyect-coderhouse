@@ -1,0 +1,58 @@
+.main-video{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.p-main{
+    padding: 2rem;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+}
+
+.main-foto-container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.main-foto{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+}
+
+
+h1{
+    margin:1rem;
+    font-size: 3rem;
+    display: flex;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos-h2{
+    
+    display: flex;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secundario;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}

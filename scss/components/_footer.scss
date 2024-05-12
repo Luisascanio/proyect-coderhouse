@@ -1,0 +1,20 @@
+/* footer */
+
+.footer-icons{
+    display: flex;
+    justify-content:center
+}
+footer{
+    background-color: #000000;
+    padding: 1.5rem;
+    
+}
+
+
+.p-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    color: $color-secundario;
+}
