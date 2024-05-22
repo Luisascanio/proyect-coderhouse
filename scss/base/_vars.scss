@@ -7,6 +7,21 @@ $color-secundario: aliceblue;
 
 @mixin media($breakpoints) {
     @media screen and (max-width:$breakpoints ) {
+
+        .nav-var-pic2{
+            display: block;
+            
+            img{
+                height: 64px;
+                width: 64px;
+                
+            }
+
+        }
+
+        .nav-var-pic{
+            display: none;
+        }
     
     .abrir-boton,
     .cerrar{
@@ -21,6 +36,7 @@ $color-secundario: aliceblue;
     }
 
     .nav-bar-container{
+        
         position: absolute;
         top: 0;
         right: 0;
@@ -33,9 +49,12 @@ $color-secundario: aliceblue;
         
     }
     .nav-bar{
+    
     align-items: end;
     flex-direction: column;
+
     }
+    
     .nav-bar-container-visible{
         opacity: 1;
         visibility: visible;

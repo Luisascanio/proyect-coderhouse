@@ -13,6 +13,25 @@ header{
     justify-content: space-between;
     list-style: none;
 
+    .links-nav{
+        margin: 2rem;
+        font-family: "Rye", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: aliceblue;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+
+
+    .nav-var-pic{
+    
+        height: 64px;
+        width: 64px;
+
+    }
+
 }
 
 .nav-bar a:hover{
@@ -37,22 +56,20 @@ li{
     text-decoration: none;
     list-style: none;
 }
-.links-nav{
-    margin: 2rem;
-    font-family: "Rye", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: aliceblue;
-    text-decoration: none;
-    list-style: none;
-    
-}
+
 
 .container-boton{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+
+
+}
+
+.nav-var-pic2{
+    display: none
 }
 
 @include media(550px);
 @include media(428px);
 @include media(412px);
+
