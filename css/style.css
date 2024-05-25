@@ -20,6 +20,8 @@ main {
 
 /* footer */
 .footer-icons {
+  padding: 1rem;
+  gap: 1rem;
   display: flex;
   justify-content: center;
 }
